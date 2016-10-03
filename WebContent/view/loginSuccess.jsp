@@ -7,7 +7,7 @@
 <title>Login Success Page</title>
 </head>
 <body>
-	<h1>${customer.namm} Logged in Successfully!</h1>
+	<h1>${customer.name} Logged in Successfully!</h1>
 	<p>
 		<a href="/helloMVC/index.jsp">go to home page</a>
 	</p>

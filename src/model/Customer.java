@@ -7,6 +7,16 @@ public class Customer {
 	private String name;
 	private String gender;
 	private String email;
+	
+	public Customer(String id, String password, String name, String gender, String email) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.name = name;
+		this.gender = gender;
+		this.email = email;
+	}
+	
 	public String getId() {
 		return id;
 	}

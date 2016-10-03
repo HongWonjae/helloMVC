@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>Insert title here</title>
+<title>Error Page</title>
 </head>
 <body>
-
+	That's NoNo
+	<p>
+		<a href="/helloMVC/index.jsp">go to home page</a>
+	</p>
 </body>
 </html>

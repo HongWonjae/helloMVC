@@ -51,7 +51,7 @@ div.ex {
 				<tr>
 					<td></td>
 					<td></td>
-					<td><input type="submit" value="login" /></td>
+					<td><input type="submit" value="Register" /></td>
 				</tr>					
 			</table>
 		</form>

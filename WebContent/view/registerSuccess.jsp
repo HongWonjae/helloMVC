@@ -8,6 +8,13 @@
 </head>
 <body>
 	<h1>You registered successfully.</h1>
+	<ul>
+		<li>Id: ${customer.id }</li>
+		<li>Password: ${customer.password }</li>
+		<li>Name: ${customer.name }</li>
+		<li>Gender: ${customer.gender }</li>
+		<li>Email: ${customer.email }</li>
+	</ul>
 
 </body>
 </html>

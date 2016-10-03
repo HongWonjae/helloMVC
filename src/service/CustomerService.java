@@ -21,7 +21,14 @@ public class CustomerService {
 	public void addCustomer(Customer customer) {
 		customers.put(customer.getId(), customer);
 	}
-
+	
+	public Customer findCustomer(String id) {
+		if(id != null)
+			return(customers.get(id.toLowerCase()));
+		else
+			return null;		
+	}	
+	
 	public Customer login(String id, String password) {
 		// TODO Auto-generated method stub
 		return null;

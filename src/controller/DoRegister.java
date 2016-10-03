@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import model.Customer;
+import service.CustomerService;
+
 /**
  * Servlet implementation class DoRegister
  */
@@ -28,6 +31,15 @@ public class DoRegister extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String id = request.getParameter("id");
 		String password  = request.getParameter("password");
+		String name = request.getParameter("name");
+		String gender = request.getParameter("gender");
+		String email = request.getParameter("email");
+		
+		CustomerService service = (CustomerService)CustomerService.getInstance(); 
+		Customer customer = service.login(id, password);
+		
+		String page;
+		
 	}
 
 }
